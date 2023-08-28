@@ -1,0 +1,111 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+.container{
+  font-size: xx-large;
+  height: 100%;
+  background: linear-gradient(90deg, rgb(132, 159, 193) 0%, rgb(58, 59, 31)100%, rgb(45, 103, 173) 100%);
+}
+.heading{
+  text-align: center;
+  background: -webkit-linear-gradient(#070707,#174445f9, #181717);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.searchdiv{
+   display: flex;
+   gap: 30px;
+   justify-content: center;
+}
+.input{
+  height: 40px;
+  width: 45%;
+  color:rgb(6, 19, 19);
+  border-radius: 5px;
+  font-size: x-large;
+  padding: 0 0 0 10px;
+  border: none;
+  box-shadow: 2px 2px 2px 2px;
+  background-color: #999292;
+}
+.btn{
+  height: 40px;
+  border-radius: 5px;
+  font-size: large;
+  width: fit-content;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-weight:700;
+  box-shadow: 2px 2px 2px 2px;
+  background-color: rgb(164, 175, 233);
+  
+}
+.recipesdiv{
+  margin: auto;
+  display: flex;
+  gap: 10px;
+  overflow-y: hidden;
+  text-align: center;
+  align-items: center;
+   flex-direction: column;
+}
+.carddiv{
+  flex-wrap: wrap;
+  background: linear-gradient(90deg, rgb(132, 159, 193) 0%, rgb(58, 59, 31)100%, rgb(45, 103, 173) 100%);
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  justify-content: center;
+  margin-top: 10px;
+}
+.card{
+  display: flex;
+  background: linear-gradient(90deg, rgb(27, 149, 94) 0%, rgb(58, 59, 31)100%, rgb(209, 164, 50) 100%);
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  width: 330px;
+  height: 440px;
+  justify-content: center;
+  box-shadow: 1px 3px 3px 5px;
+  border-radius: 12px;
+  padding: 5px;
+}
+.image{
+  width: 100%;
+  height: 71%;
+  border-radius: 12px 12px 0px 0;
+  }
+.show{
+  margin-top: 10px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(220, 220, 220);
+}
+.itemname{
+  background: linear-gradient(90deg, rgb(171, 109, 29) 0%, rgb(182, 186, 59)100%);
+  flex-wrap: wrap;
+  font-size:large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(3, 50, 50);
+  font-weight: 700;
+  height: 13vh;
+  width: 100%;
+}
+.mealtype{
+  height: 5vh;
+  width: 100%;
+  font-size: large;
+  color:rgb(37, 26, 26);
+  font-weight: 600;
+}
