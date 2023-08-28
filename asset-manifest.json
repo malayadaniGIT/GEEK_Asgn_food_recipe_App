@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/GEEK_Asgn_food_recipe_App/static/css/main.80c11dc5.css",
+    "main.js": "/GEEK_Asgn_food_recipe_App/static/js/main.7539e75e.js",
+    "static/js/787.340708b1.chunk.js": "/GEEK_Asgn_food_recipe_App/static/js/787.340708b1.chunk.js",
+    "index.html": "/GEEK_Asgn_food_recipe_App/index.html",
+    "main.80c11dc5.css.map": "/GEEK_Asgn_food_recipe_App/static/css/main.80c11dc5.css.map",
+    "main.7539e75e.js.map": "/GEEK_Asgn_food_recipe_App/static/js/main.7539e75e.js.map",
+    "787.340708b1.chunk.js.map": "/GEEK_Asgn_food_recipe_App/static/js/787.340708b1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.80c11dc5.css",
+    "static/js/main.7539e75e.js"
+  ]
+}
